@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Project Dashboard</h1>
+        </header>
+
+        <main>
+            <section class="project-form">
+                <h2>Add New Project</h2>
+                <form id="add-project-form">
+                    <input type="text" id="project-name" placeholder="Project Name" required>
+                    <textarea id="project-description" placeholder="Project Description"></textarea>
+                    <button type="submit">Add Project</button>
+                </form>
+            </section>
+
+            <section class="project-list">
+                <h2>Projects</h2>
+                <div id="projects-container">
+                    <!-- Projects will be loaded here by JavaScript -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Project Management</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
